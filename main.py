@@ -28,12 +28,12 @@ async def hello(ctx):
 
 @bot.command()
 async def landmarks(ctx):  
-    await ctx.send("""Exploration is one of the most important activities on the game. The most important landmarks on Hyrule are Skyview Towers, Dragon's Tears Geoglyphs, Shrines, Chasms, Light Roots, Villages, Stables, Great Fairy Fountains,Caves and Cherry Trees. There is a dedicated section for each landmark.""")
+    await ctx.send("""Exploration is one of the most important activities in the game. The most important landmarks on Hyrule are Skyview Towers, Dragon's Tears Geoglyphs, Shrines, Chasms, Light Roots, Villages, Stables, Great Fairy Fountains,Caves and Cherry Trees. There is a dedicated section for each landmark.""")
 
 
 @bot.command()
 async def dragon_tears(ctx):
-    await ctx.send("""Here is a list with the name, closest tower and coordinates of each Dragon's Tear, and a map with their locations:
+    await ctx.send("""Here is a list with the name, closest tower, and coordinates of each Dragon's Tear, and a map with their locations:
 
 -> Dragon's Tear # 1 - Rauru Geoglyph (-1412,0966,0123) - (Where Am I?) - Closest Tower: Lindor's Brow
 -> Dragon's Tear # 2 - ​​Forgotten Temple Geoglyph ( -2551,1885,0319) - (An Unfamiliar World) - Closest Tower: Lindor's Brow
@@ -55,7 +55,7 @@ async def dragon_tears(ctx):
 
 @bot.command()
 async def towers(ctx):  
-    await ctx.send("""There are 15 Skyview Towers across Hyrule. Interactiong with their launch pads will reveal the corresponding regional maps. Many of them are not operational when discovered, and a short quest must be completed to gain acces to them. Here is a list with the name and coordinates of each Skyview Tower, as well as map with their locations:
+    await ctx.send("""There are 15 Skyview Towers across Hyrule. Interaction with their launch pads will reveal the corresponding regional maps. Many of them are not operational when discovered, and a short quest must be completed to gain acces to them. Here is a list with the name and coordinates of each Skyview Tower, as well as map with their locations:
 
 -> Pikida Stonegrove Skyview Tower (-2311,3062,0423)
 -> Gerudo Highlands Skyview Tower (-3961,-1306,0402)
@@ -128,7 +128,7 @@ async def chasms(ctx):
 
 @bot.command()
 async def fountains(ctx):  
-    await ctx.send("""There are 4 Great Fairy Fountains across Hyrule. In them you can upgrade your armour pieces in exchange of certain objects. They are initially locked, and a short quest must be done to unlock each of them. There is also Malanya Spring, wich will allow you to improve your horses stats, and to bring them back to life when they die. Here is a list with the name and coordinates of each Great Fairy Fountain, as well as map with their locations:
+    await ctx.send("""There are 4 Great Fairy Fountains across Hyrule. In them, you can upgrade your armor pieces in exchange for certain objects. They are initially locked, and a short quest must be done to unlock each of them. There is also Malanya Spring, wich will allow you to improve your horses stats, and to bring them back to life when they die. Here is a list with the name and coordinates of each Great Fairy Fountain, as well as map with their locations:
 
 ->  Great Fairy Mija (-1460,2995,0288)
 ->  Great Fairy Kaysa  (-1557,-1231,0063)
@@ -142,7 +142,7 @@ async def fountains(ctx):
 
 @bot.command()
 async def villages(ctx): 
-    await ctx.send("""There are 10 Villages across Hyrule. They are the main population centers, and within them shops, goddess statues, cooking pots and other objects and places can be found. Here is a list with the name and coordinates of each Village, as well as map with their locations:
+    await ctx.send("""There are 10 Villages across Hyrule. They are the main population centers, and within them, shops, goddess statues, cooking pots and other objects and places can be found. Here is a list with the name and coordinates of each Village, as well as map with their locations:
 
 ->  Rito Village (-3621,1800,0090)
 ->  Gerudo Town (-3866,-2942,-0002)
@@ -228,26 +228,30 @@ CENTRAL HYRULE
 -> Messages from an Ancient Era - Quest Vendor: Wortsworth (-0268,0066,0018)
 -> Serenade to a Great Fairy - Quest Vendor: Penn (1047,1149,0022)
 -> Serenade to Kaysa - Quest Vendor: Mastro (-1406,-1264,0032)
-
+ """)
+    await ctx.send("""
 HEBRA
 -> Potential Princess Sightings! - Quest Vendor: Traysi (-3258,1763,0119)
 -> The Hornist's Dramatic Escape - Quest Vendor: Eustus (-3648,0756,0118)
 -> Serenade to Mija - Quest Vendor: Mastro (-1630,2589,0234)
 -> Zelda's Golden Horse - Quest Vendor: Penn (-1641,2582,0233)
 -> Bring Peace to Hebra! - Quest Vendor: Flaxel (-1791,2301,0238)
-
+ """)
+    await ctx.send("""
 ELDIN
 ->  Bring Peace to Eldin!- Quest Vendor: Toren (2369,3059,0448)
 ->  For Our Princess- Quest Vendor: Penn (2583,1154,0148)
-
+ """)
+    await ctx.send("""
 AKKALA
 -> Mattison´s Independence - Quest Vendor: Hudson (3936,1590,0129)
 -> The All-Clucking Cucco - Quest Vendor: Penn (3163,1716,0201)
 -> Bring Peace to Akkala! - Quest Vendor: Toren (3005,1126,0281)
 -> The Search for Koltin - Quest Vendor: N/A (Unlocked automatically)
 -> A Monstrous Collection (x5) - Quest Vendor: Kilton (3960,1642,0128)
-
-Necluda
+ """)
+    await ctx.send("""
+NECLUDA
 -> Princess Zelda Kidnapped?!- Quest Vendor: Penn (1758,-1925,0040) 
 -> Bring Peace to Necluda! - Quest Vendor: Hoz (2261,-1838,0011)
 -> Honey, Bee Mine - Quest Vendor: Beetz (2167,-1380,0109) 
@@ -265,30 +269,36 @@ Necluda
 -> The Mayoral Election - Quest Vendor: Sophie (3357,-2139,0120)
 -> Ruffian Infested Village - Quest Vendor: Rozel (2782,-3272,0083)
 -> Lurelin Village Restoration Project - Quest Vendor: Bolson (2875,-3443,0000)
-
+ """)
+    await ctx.send("""
 FARON
 -> The Flute Player's Plan - Quest Vendor: Pyper (0528,-3395,0056)
 -> Bring Peace to Faron! - Quest Vendor: Flaxel (-0021,-324,0007)
 -> An Eerie Voice - Quest Vendor: Penn (0504,-3444,0047)
-
+ """)
+    await ctx.send("""
 GERUDO
 -> The Blocked Well - Quest Vendor: Penn (-2817,-2235,0029)
 -> Infiltrating the Yiga Clan - Quest Vendor:  Mimos (-3687,-1365,0331)
 -> The Yiga Clan Exam - Quest Vendor: Yiga Blademaster (-2479,-1794,0137)
-
+ """)
+    await ctx.send("""
 GREAT HYRULE FOREST
 -> Investigate Typhlo Ruins - Quest Vendor: Kazul (0373,3095,0174)
 -> The Owl Protected by Dragons - Quest Vendor: Kazul (0373,3095,0174)
 -> The Corridor Between Two Dragons - Quest Vendor: Kazul (0373,3095,0174)
 -> The Six Dragons - Quest Vendor: Kazul (0373,3095,0174)
 -> The Long Dragon - Quest Vendor: Kazul (0373,3095,0174)
-
+ """)
+    await ctx.send("""
 DEPTHS
 -> Master Kohga of the Yiga Clan (x4) - Quest Vendor: Kohga (-0803,-1928,-0520)
-
+ """)
+    await ctx.send("""
 SKY
 ->  Legend of the Great Sky Island - Quest Vendor: Steward Construct (0453,-0802,1540)
-
+ """)
+    await ctx.send("""
 ADDITIONAL ADVENTURES
 -> Hino's Cages, Bubbul Gems, Addison's Signboards
                   """)   
