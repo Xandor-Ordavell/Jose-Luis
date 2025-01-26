@@ -178,9 +178,7 @@ async def caves(ctx):
 
 @bot.command()
 async def quests(ctx): 
-    await ctx.send("""There are 3 types of quests in the game: Main Quests, Side Quests, and Side Adventures. Main Quests are those in which the main storyline happens, and thus, they are considered necessary to complete to finish the game, although some of them can be skipped when in speed runs.
-                   Side Quests are usually simple quests, although there are a few exceptions. It is not necessary to complete them in order to finish the game, but it is recommended to complete them as they provide valuable objects. Side Adventures are longer than Side Quests but shorter than Main Quests.
-                   It is not necessary to complete them to finish the game, but just like Side Quest, it is recommended to complete them as they provide valuable objects. There is a dedicated section for each type of quest.""")    
+    await ctx.send("""There are 3 types of quests in the game: Main Quests, Side Quests, and Side Adventures. Main Quests are those in which the main storyline happens, and thus, they are considered necessary to complete to finish the game, although some of them can be skipped when in speed runs. Side Quests are usually simple quests, although there are a few exceptions. It is not necessary to complete them in order to finish the game, but it is recommended to complete them as they provide valuable objects. Side Adventures are longer than Side Quests but shorter than Main Quests. It is not necessary to complete them to finish the game, but just like Side Quest, it is recommended to complete them as they provide valuable objects. There is a dedicated section for each type of quest.""")    
 
 @bot.command()
 async def main_quests(ctx): 
