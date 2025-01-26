@@ -34,6 +34,7 @@ async def landmarks(ctx):
 @bot.command()
 async def dragon_tears(ctx):
     await ctx.send("""Here is a list with the name, closest tower and coordinates of each Dragon's Tear, and a map with their locations:
+
 -> Dragon's Tear # 1 - Rauru Geoglyph (-1412,0966,0123) - (Where Am I?) - Closest Tower: Lindor's Brow
 -> Dragon's Tear # 2 - ​​Forgotten Temple Geoglyph ( -2551,1885,0319) - (An Unfamiliar World) - Closest Tower: Lindor's Brow
 -> Dragon's Tear # 3 - ​​Purah Pad Geoglyph (1828,0737,0089) - (Mineru's Counsel) - Closest Tower: Eldin Canyon
@@ -55,6 +56,7 @@ async def dragon_tears(ctx):
 @bot.command()
 async def towers(ctx):  
     await ctx.send("""There are 15 Skyview Towers across Hyrule. Interactiong with their launch pads will reveal the corresponding regional maps. Many of them are not operational when discovered, and a short quest must be completed to gain acces to them. Here is a list with the name and coordinates of each Skyview Tower, as well as map with their locations:
+
 -> Pikida Stonegrove Skyview Tower (-2311,3062,0423)
 -> Gerudo Highlands Skyview Tower (-3961,-1306,0402)
 -> Rospro Pass Skyview Tower (-3680,2346,0213)
@@ -96,6 +98,7 @@ async def roots(ctx):
 @bot.command()
 async def stables(ctx): 
     await ctx.send("""There are 14 Stables and 2 Mini Stables (one on Lookout Landing an the other on the Digdogg Suspension Bridge) across Hyrule. In them you can keep up to 7 horses and sleep for 20 or 40 ruppes. Most interactions in them give reward points, wich can be then exchanged for certain objects. Here is a list with the name and coordinates of each Stable, as well as map with their locations:
+
 ->  Snowfield Stable (-1655,2572,0263)
 ->  Tabantha Bridge Stable (-2932,0548,0200)
 ->  Gerudo Canyon Stable (-2804,-2226,0060)
@@ -126,10 +129,11 @@ async def chasms(ctx):
 @bot.command()
 async def fountains(ctx):  
     await ctx.send("""There are 4 Great Fairy Fountains across Hyrule. In them you can upgrade your armour pieces in exchange of certain objects. They are initially locked, and a short quest must be done to unlock each of them. There is also Malanya Spring, wich will allow you to improve your horses stats, and to bring them back to life when they die. Here is a list with the name and coordinates of each Great Fairy Fountain, as well as map with their locations:
-->  Snowfield Stable (-1655,2572,0263)
-->  Tabantha Bridge Stable (-2932,0548,0200)
-->  Gerudo Canyon Stable (-2804,-2226,0060)
-->  New Serenne Stable (-1361,0724,0072)
+
+->  Great Fairy Mija (-1460,2995,0288)
+->  Great Fairy Kaysa  (-1557,-1231,0063)
+->  Great Fairy Cotera (1768,-2180,-0013)
+->  Great Fairy Tera  (0916,1386,0068)
                    """)   
     with open('/Users/a8a/Downloads/Jose Luis/fountains_map.png', 'rb') as f:
         picture = discord.File(f)
@@ -139,6 +143,7 @@ async def fountains(ctx):
 @bot.command()
 async def villages(ctx): 
     await ctx.send("""There are 10 Villages across Hyrule. They are the main population centers, and within them shops, goddess statues, cooking pots and other objects and places can be found. Here is a list with the name and coordinates of each Village, as well as map with their locations:
+
 ->  Rito Village (-3621,1800,0090)
 ->  Gerudo Town (-3866,-2942,-0002)
 ->  Korok Forest (0419,2140,-0119)
@@ -172,10 +177,112 @@ async def caves(ctx):
                                     #QUESTS#
 
 @bot.command()
-async def villages(ctx): 
-    await ctx.send("""There are 3 types of quests in the game: Main Quests, Side Quests and Side Adventures. Main Quests are  those in wich the main storyline happens, and thus, they are considered to be necessary to complete in order to finish the game, altought some of them can be skipped when in speedruns.
-                   Side Quests are usually simples quests, although there are some few exceptions. It is not neccesarry to complete them in order to finish the game, but it is recommended to complete it as they provide valuavle objects. Side Adventures are longer than Side Quests, but shorter than Main Quests.
-                   It is not neccesarry to complete them in order to finish the game, but just like Side Quest, it is recommended to complete it as they provide valuavle objects. There is a dedicated section for each type of quest.""")    
+async def quests(ctx): 
+    await ctx.send("""There are 3 types of quests in the game: Main Quests, Side Quests, and Side Adventures. Main Quests are those in which the main storyline happens, and thus, they are considered necessary to complete to finish the game, although some of them can be skipped when in speed runs.
+                   Side Quests are usually simple quests, although there are a few exceptions. It is not necessary to complete them in order to finish the game, but it is recommended to complete them as they provide valuable objects. Side Adventures are longer than Side Quests but shorter than Main Quests.
+                   It is not necessary to complete them to finish the game, but just like Side Quest, it is recommended to complete them as they provide valuable objects. There is a dedicated section for each type of quest.""")    
 
+@bot.command()
+async def main_quests(ctx): 
+    await ctx.send("""There are a total of 23 Main Quests in the game, making up the main storyline. Here is a list of all the Main Quests organized chronologically (Note that most of them can be completed in different orders, but this is the recommended oath, as the difficulty of the quests increases this way):
+
+-> Find Princess Zelda
+-> The Closed Door
+-> To the Kingdom of Hyrule
+-> Crisis at Hyrule Castle
+-> Regional Phenomena
+-> Camera Work in the Depths
+-> Impa and the Geoglyphs
+-> The Dragon's Tears
+-> Tulin of Rito Village
+-> A Mystery in the Depths
+-> Yunobo of Goron City
+-> The Sludge- Covered Statue
+-> The Broken Slate
+-> Clues To The Sky
+-> Restoring the Zora Armor
+-> Sidon of the Zora's Domain
+-> Riju of Gerudo Time
+-> Secret of the Ring Ruins
+-> Find the fifth Sage
+-> Guidance from Ages Past
+-> Trail of the Master Sword
+-> Recovering the Hero's Sword
+-> Destroy Ganondorf 
+                  """)   
+
+@bot.command()
+async def side_adventures(ctx): 
+    await ctx.send("""There are a total of 56 Side Aventures in the game. Many of them are not available at the star of the game, and other quests must be completed to unlock them. Here is a list of all the Side Adventures organized by geographical regions, and with the respective quest vendor:
+
+CENTRAL HYRULE
+-> Hetsu's Concerns - Quest Vendor: Hetsu 
+-> The Hunt for Bubbul Gems! - Quest Vendor: Kilton (1222,1207,0020)
+-> Bring Peace to Hyrule Field! - Quest Vendor: Hoz (-0433,-0490,0025)
+-> A Call from the Depths - Quest Vendor: Mysterious Voice
+-> The Beast and the Princess - Quest Vendor: Penn (-1348,0734,0085)
+-> The Beckoning Woman - Quest Vendor: Penn (-1413,-1295,0031)
+-> Gourmets Gone Missing - Quest Vendor: Penn (0387,-1045,0015) 
+-> White Goats Gone Missing - Quest Vendor: Penn (-2910,0524,0169)
+-> The Missing Farm Tools - Quest Vendor: Penn (0876,-0159,0025) 
+-> Who Goes There? - Quest Vendor: Jerrin (-0256,0107,0008) 
+-> A Deal with the Statue - Quest Vendor: Horned Statue (-0234,0157,0004)
+-> Messages from an Ancient Era - Quest Vendor: Wortsworth (-0268,0066,0018)
+-> Serenade to a Great Fairy - Quest Vendor: Penn (1047,1149,0022)
+-> Serenade to Kaysa - Quest Vendor: Mastro (-1406,-1264,0032)
+
+HEBRA
+-> Potential Princess Sightings! - Quest Vendor: Traysi (-3258,1763,0119)
+-> The Hornist's Dramatic Escape - Quest Vendor: Eustus (-3648,0756,0118)
+-> Serenade to Mija - Quest Vendor: Mastro (-1630,2589,0234)
+-> Zelda's Golden Horse - Quest Vendor: Penn (-1641,2582,0233)
+-> Bring Peace to Hebra! - Quest Vendor: Flaxel (-1791,2301,0238)
+
+ELDIN
+->  Bring Peace to Eldin!- Quest Vendor: Toren (2369,3059,0448)
+->  For Our Princess- Quest Vendor: Penn (2583,1154,0148)
+
+AKKALA
+-> Mattison´s Independence - Quest Vendor: Hudson (3936,1590,0129)
+-> The All-Clucking Cucco - Quest Vendor: Penn (3163,1716,0201)
+-> Bring Peace to Akkala! - Quest Vendor: Toren (3005,1126,0281)
+-> The Search for Koltin - Quest Vendor: N/A (Unlocked automatically)
+-> A Monstrous Collection (5 missions) - Quest Vendor: Kilton (3960,1642,0128)
+
+Necluda
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+-> - Quest Vendor: 
+
+
+                  """)   
+    
 #############################################################################################
                                     #BESTIARY#
