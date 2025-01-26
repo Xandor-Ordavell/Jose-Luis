@@ -213,7 +213,7 @@ async def main_quests(ctx):
 
 @bot.command()
 async def side_adventures(ctx): 
-    await ctx.send("""There are a total of 56 Side Aventures in the game. Many of them are not available at the star of the game, and other quests must be completed to unlock them. Here is a list of all the Side Adventures organized by geographical regions, and with the respective quest vendor:
+    await ctx.send("""There are a total of 56 Side Aventures in the game. Many of them are not available at the start of the game, and other quests must be completed to unlock them. Here is a list of all the Side Adventures organized by geographical regions, and with the respective quest vendor:
 
 CENTRAL HYRULE
 -> Hetsu's Concerns - Quest Vendor: Hetsu 
@@ -247,41 +247,52 @@ AKKALA
 -> The All-Clucking Cucco - Quest Vendor: Penn (3163,1716,0201)
 -> Bring Peace to Akkala! - Quest Vendor: Toren (3005,1126,0281)
 -> The Search for Koltin - Quest Vendor: N/A (Unlocked automatically)
--> A Monstrous Collection (5 missions) - Quest Vendor: Kilton (3960,1642,0128)
+-> A Monstrous Collection (x5) - Quest Vendor: Kilton (3960,1642,0128)
 
 Necluda
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
--> - Quest Vendor: 
+-> Princess Zelda Kidnapped?!- Quest Vendor: Penn (1758,-1925,0040) 
+-> Bring Peace to Necluda! - Quest Vendor: Hoz (2261,-1838,0011)
+-> Honey, Bee Mine - Quest Vendor: Beetz (2167,-1380,0109) 
+-> Serenade to Cotera - Quest Vendor: Mastro (-1755,-1958,0010)
+-> Hateno Village Research Lab - Quest Vendor: Robbie (-0249,0136,0019)
+-> Presenting: Sensor +! - Quest Vendor: Robbie (3781,-2123,0251)
+-> Presenting: The Travel Medallion! - Quest Vendor: Robbie (3781,-2123,0251)
+-> Presenting: Hero's Path Mode! - Quest Vendor: Robbie (3781,-2123,0251)
+-> Filling Out the Compendium - Quest Vendor: Robbie (3781,-2123,0251)
+-> Team Cece or Team Reede? - Quest Vendor: Cece (3354,-2125,0121)
+-> A Letter to Koyin - Quest Vendor: Koyin (3632,-2051,0174)
+-> Reede's Secret - Quest Vendor: Clavia (3422,-2092,0130)
+-> Cece's Secret - Quest Vendor: Sophie (3357,-2139,0120)
+-> A New Signature Food - Quest Vendor: Reede (3429,-2082,0131)
+-> The Mayoral Election - Quest Vendor: Sophie (3357,-2139,0120)
+-> Ruffian Infested Village - Quest Vendor: Rozel (2782,-3272,0083)
+-> Lurelin Village Restoration Project - Quest Vendor: Bolson (2875,-3443,0000)
 
+FARON
+-> The Flute Player's Plan - Quest Vendor: Pyper (0528,-3395,0056)
+-> Bring Peace to Faron! - Quest Vendor: Flaxel (-0021,-324,0007)
+-> An Eerie Voice - Quest Vendor: Penn (0504,-3444,0047)
 
+GERUDO
+-> The Blocked Well - Quest Vendor: Penn (-2817,-2235,0029)
+-> Infiltrating the Yiga Clan - Quest Vendor:  Mimos (-3687,-1365,0331)
+-> The Yiga Clan Exam - Quest Vendor: Yiga Blademaster (-2479,-1794,0137)
+
+GREAT HYRULE FOREST
+-> Investigate Typhlo Ruins - Quest Vendor: Kazul (0373,3095,0174)
+-> The Owl Protected by Dragons - Quest Vendor: Kazul (0373,3095,0174)
+-> The Corridor Between Two Dragons - Quest Vendor: Kazul (0373,3095,0174)
+-> The Six Dragons - Quest Vendor: Kazul (0373,3095,0174)
+-> The Long Dragon - Quest Vendor: Kazul (0373,3095,0174)
+
+DEPTHS
+-> Master Kohga of the Yiga Clan (x4) - Quest Vendor: Kohga (-0803,-1928,-0520)
+
+SKY
+->  Legend of the Great Sky Island - Quest Vendor: Steward Construct (0453,-0802,1540)
+
+ADDITIONAL ADVENTURES
+-> Hino's Cages, Bubbul Gems, Addison's Signboards
                   """)   
     
 #############################################################################################
