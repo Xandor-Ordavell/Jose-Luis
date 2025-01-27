@@ -28,7 +28,7 @@ async def hello(ctx):
 
 @bot.command()
 async def landmarks(ctx):  
-    await ctx.send("""Exploration is one of the most important activities in the game. The most important landmarks on Hyrule are Skyview Towers, Dragon's Tears Geoglyphs, Shrines, Chasms, Light Roots, Villages, Stables, Great Fairy Fountains,Caves and Cherry Trees. There is a dedicated section for each landmark.""")
+    await ctx.send("""Exploration is one of the most important activities in the game. The most important landmarks on Hyrule are Skyview Towers, Dragon's Tears Geoglyphs, Shrines, Chasms, Villages, Stables, Great Fairy Fountains,Caves and Cherry Trees. There is a dedicated section for each landmark.""")
 
 
 @bot.command()
@@ -86,14 +86,6 @@ async def shrines(ctx):
     with open('/Users/a8a/Downloads/Jose Luis/shrinessky_map.png', 'rb') as f:
         picture = discord.File(f)
     await ctx.send(file=picture)
-
-
-@bot.command()
-async def roots(ctx):  
-    with open('/Users/a8a/Downloads/Jose Luis/lightroots_map.png', 'rb') as f:
-        picture = discord.File(f)
-    await ctx.send(file=picture)
-
 
 @bot.command()
 async def stables(ctx): 
