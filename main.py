@@ -2,7 +2,6 @@ import random
 import os
 import requests
 import discord
-import requests
 from discord.ext import commands
 from settings import settings
 
@@ -80,6 +79,62 @@ async def towers(ctx):
 
 @bot.command()
 async def shrines(ctx):  
+    await ctx.send("""
+NORTHERNMOST LATITUDES
+-> Tauyosipun Shrine (-4539,2881,0262) - Type: Puzzle -  Shrine Quest: None
+-> Otak Shrine (-4391,3714,0212) - Type: Proving Grounds - Shrine Quest: None
+-> Eutoum Shrine (-3506,3570,0387) - Type: Proving Grounds - Shrine Quest: None
+-> Rutafu-um Shrine (-2996,3102,0515) - Type: Rauru’s Blessing - Shrine Quest: The Northwest Hebra Cave Crystal
+-> Sisuran Shrine (-2560,3353,0245) - Type: Rauru’s Blessing - Shrine Quest: The North Hebra Mountains Crystal
+-> Orochium Shrine (-1636,2641,0239) - Type: Puzzle - Shrine Quest: None
+-> Oshozan-u Shrine (-1405,3677,0288) - Type: Puzzle - Shrine Quest: None
+-> Mayausiy Shrine (-1165,2602,-0083) - Type: Puzzle - Shrine Quest: None
+-> Mayaotaki Shrine (-0823,3535,0235) - Type: Rauru’s - Shrine Quest: None
+-> Minetak Shrine (0393,3485,0068) - Type: Rauru’s Blessing - Shrine Quest: None
+-> Kikakin Shrine (-0395,2736,0287) - Type: Puzzle - Shrine Quest: None
+-> Sikukuu Shrine (0699,2793,0226) - Type: Puzzle - Shrine Quest: None
+-> Mayak Shrine (1270,3733,0106) - Type: Puzzle - Shrine Quest: None
+-> Jiotak Shrine (1833,3179,0258) - Type: Rauru’s Blessing - Shrine Quest: None
+-> Marakuguc Shrine (1761,2508,0437) - Type: Puzzle - Shrine Quest: None
+    """)
+    await ctx.send("""
+-> Isisim Shrine (1841,2841,0363) - Type: Proving Grounds - Shrine Quest: None
+-> Sibajitak Shrine (2399,3274,0402) - Type: Puzzle - Shrine Quest: None
+-> Kimayat Shrine (2863,3637,0241) - Type: Proving Grounds - Shrine Quest: None
+-> Sitsum Shrine (2369,25950790) - Type: Puzzle - Shrine Quest: None
+-> Kamatukis Shrine (3431,3355,0071) - Type: Puzzle - Shrine Quest: None
+-> Momosik Shrine  (2959,2758,0524) - Type: Rauru’s Blessing - Shrine Quest: The Death Caldera Crystal
+-> Jochi-iu Shrine  (4346,2875,0165) - Type: Puzzle - Shrine Quest: None
+-> Igashuk Shrine (4654,3712,0131) - Type: Rauru’s Blessing - Shrine Quest: None
+-> Rasiwak Shrine  (4664,3262,0002) - Type: Puzzle - Shrine Quest: None   
+    """)
+    await ctx.send("""
+    
+    """)
+    await ctx.send("""
+    
+    """)
+    await ctx.send("""
+    
+    """)
+    await ctx.send("""
+    
+    """)
+    await ctx.send("""
+    
+    """)
+    await ctx.send("""
+    
+    """)
+    await ctx.send("""
+    
+    """)
+    await ctx.send("""
+    
+    """)
+    await ctx.send("""
+    
+    """)
     with open('/Users/a8a/Downloads/Jose Luis/shrines_map.png', 'rb') as f:
         picture = discord.File(f)
     await ctx.send(file=picture)
