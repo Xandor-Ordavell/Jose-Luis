@@ -109,32 +109,157 @@ NORTHERNMOST LATITUDES
 -> Rasiwak Shrine  (4664,3262,0002) - Type: Puzzle - Shrine Quest: None   
     """)
     await ctx.send("""
-    
+NORTHERLY LATITUDES
+-> Wao-os Shrine (-4059,1990,0183) - Type: Puzzle - Shrine Quest: The White’s Bird Guidance
+-> Ikatak Shrine (-3950,1138,0112) - Type: Rauru’s Blessing  - Shrine Quest: The Gisa Crater Crystal
+-> Gatakis Shrine (-3650,1805,0168) - Type:  Puzzle - Shrine Quest: None
+-> Sahirow Shrine (-3354,2387,0361) - Type: Puzzle - Shrine Quest: None
+-> Oromuwak Shrine (-3079,1617,0243) - Type: Puzzle - Shrine Quest: None
+-> Nouda  Shrine (-2318,2201,0173) - Type: Proving Grounds - Shrine Quest: None
+-> Iun-orok Shrine (-3538,0850,-0133) - Type: Puzzle - Shrine Quest: None
+-> Runakit Shrine (-2530,1170,0178) - Type: Puzzle - Shrine Quest: None
+-> Kiuyoyou Shrine (-1106,2086,0104) - Type: Puzzle - Shrine Quest: None
+-> Taki-ihaban Shrine (-1830,1194,0147) - Type: Rauru’s Blessing - Shrine Quest: None
+-> Tenmaten Shrine (-0593,1551,-0014) - Type Rauru’s Blessing: - Shrine Quest: None
+-> Musanokir Shrine (0408,2133,0144) - Type: Puzzle  - Shrine Quest: None
+->  Pupunke Shrine (0620,2211,0164) - Type: Rauru’s Blessing - Shrine Quest:
+-> Sakunbomar Shrine (0166,2319,0179) - Type: Rauru’s Blessing - Shrine Quest: None Shall Pass?
     """)
     await ctx.send("""
-    
+-> Ninjis Shrine (0353,1891,0178) - Type: Rauru’s Blessing - Shrine Quest: Maca’s Special Place
+-> Serutabomac Shrine (-0179,1170,0280) - Type: Puzzle  - Shrine Quest: None
+-> Sepapa Shrine (0222,1085,0028) - Type: Puzzle - Shrine Quest: None
+-> Rein-iz Shrine (0755,0824,0082) - Type: Puzzle - Shrine Quest: None
+-> Ekochiu Shrine (1062,1279,0045) - Type: Puzzle - Shrine Quest: None
+-> Timawak Shrine (1799,1638,0311) - Type: Puzzle  - Shrine Quest: None
+-> Moshapin Shrine (2678,1905,0131) - Type: Rauru’s Blessing  - Shrine Quest: The Lake Intenoch Cave Crystal
+-> Mayachideg Shrine (3061,1823,0216) - Type: Proving Grounds - Shrine Quest: None
+-> Domizun Shrine (3305,1443,0426) - Type: Puzzle  - Shrine Quest: None
+-> Kisinona Shrine (2567,1245,0173) - Type: Puzzle - Shrine Quest: None
+-> Gatanisis Shrine (4498,0825,0095) - Type: Puzzle - Shrine Quest: None
+-> Sinatanika Shrine (3842,2300,0048) - Type: Combat Training - Shrine Quest: None
+-> Jochi-ihiga Shrine (3809,1219,0090) - Type: Rauru’s Blessing - Shrine Quest: Rock for Sale
+-> Rasitakiwak Shrine (4166,1323,0229) - Type: Proving Grounds - Shrine Quest: None 
+-> Gemimik Shrine (4513,2116,0001) - Type: Puzzle - Shrine Quest: None
     """)
     await ctx.send("""
-    
+MIDDLE LATITUDES
+-> Otutsum Shrine (-4468,-0670,0509)  - Type: Rauru’s Blessing - Shrine Quest: None
+-> Gasas Shrine (-4152,0098,0040) - Type: Puzzle  - Shrine Quest: None
+-> Makurukis Shrine (-2847,0629,0233) - Type: Combat Training - Shrine Quest: None
+-> Turakawak Shrine (-3496,-0197,0066) - Type: Puzzle - Shrine Quest: None
+-> Sinakawak Shrine (-1413,0756,0089) - Type: Puzzle - Shrine Quest: None
+-> Ishodag Shrine (-0880,0422,0049) - Type: Puzzle  - Shrine Quest: None
+-> Susuyai Shrine (-0785,-0434,0018) - Type: Puzzle - Shrine Quest: None
+-> Sonapan Shrine (-1920,-0359,0228) - Type: Puzzle - Shrine Quest: None
+-> Jiosin Shrine (-0240,-0370,0027) - Type: Puzzle - Shrine Quest: None
+-> Kyononis Shrine (-0205,0451,0021) - Type: Combat Training - Shrine Quest: None
+-> Yamiyo Shrine (0332,0470,0029) - Type: Combat Training - Shrine Quest: None
+-> Morok Shrine (1182,-0779,0133) - Type: Puzzle - Shrine Quest: None
+-> Jonsau Shrine (1744,0017,0025) - Type: Puzzle - Shrine Quest: None 
+-> Tukarok Shrine (0915,-0250,0034) - Type: Puzzle - Shrine Quest: None
+-> Jojon Shrine (1202,0329,0027) - Type: Proving Grounds - Shrine Quest: None
+-> Maoikes Shrine (2275,0147,0079) - Type: Rauru’s Blessing - Shrine Quest: None
+-> Joniu Shrine (2918,0506,0155) - Type: Rauru’s Blessing - Shrine Quest: The Ralis Channel Crystal
+-> Kurakat Shrine (2362,-0511,0156) - Type: Rauru’s Blessing - Shrine Quest: Dyeing to Find It
+-> Mogawak Shrine (3299,0424,0112) - Type: Puzzle - Shrine Quest: None
+-> Apogek Shrine (3887,-0217,0164) - Type: Puzzle - Shrine Quest: None
+-> Yomizuk Shrine (4413,-0614,0034) - Type: Rauru’s Blessing - Shrine Quest: None
+-> Ihen-a Shrine (3787,0577,0486) - Type: Puzzle - Shrine Quest: None
     """)
     await ctx.send("""
-    
+SOUTHERLY LATITUDES
+-> Kudanisar Shrine (-4168,-2144,0050) - Type: Puzzle - Shrine Quest: None
+-> Mayamats Shrine (-4637,-1514,0452) - Type: Puzzle - Shrine Quest: None
+-> Suariwak Shrine (-2523,-1770,0131) - Type: Rauru’s Blessing - Shrine Quest: The Yiga Clan Exam
+-> Turakamik Shrine (-2658,-2236,0067) - Type: Puzzle - Shrine Quest: None
+-> Rotsumamu Shrine (-3407,-1362,0335) - Type: Puzzle - Shrine Quest: None
+-> Tsutsu-um Shrine (-1423,-1349,0068) - Type: Puzzle - Shrine Quest: None
+-> Usazum Shrine (-2139,-0873,0093) - Type: Rauru’s Blessing - Shrine Quest: The Satori Mountain Crystal
+-> Tadarok Shrine (-1082,-2187,0129) - Type: Puzzle - Shrine Quest: None
+-> Rakakudaj Shrine (-2036,-1854,0065) - Type: Rauru’s Blessing - Shrine Quest: The Gerudo Canyon Crystal
+-> Riogok Shrine (-1440,-1616,0089) - Type: Puzzle - Shrine Quest: None
+-> Susub Shrine (0348,-2051,-0026) - Type: Rauru’s Blessing - Shrine Quest: None
+-> Kamizun Shrine (-0177,-1557,0023) - Type: Proving Grounds - Shrine Quest: None
+-> Teniten Shrine (-0075,-1115,0021) - Type: Combat Training - Shrine Quest: None
+-> Kyokugon Shrine (-0710,-1550,0006) - Type: Puzzle - Shrine Quest: None
+-> Mayachin Shrine (-0705,-0869,0031) - Type: Puzzle - Shrine Quest: None
+-> Tajikats Shrine (0344,-1009,0016) - Type: Puzzle - Shrine Quest: None  
     """)
     await ctx.send("""
-    
+-> Jiukoum Shrine (0867,-2279,0141) - Type: Puzzle - Shrine Quest: None
+-> Makasura Shrine (1770,-1051,0166) - Type: Puzzle - Shrine Quest: None
+-> Eshos Shrine (1566,-1944,0157) - Type: Combat Training - Shrine Quest: None
+-> Jochisiu Shrine (0931,-1902,0030) - Type: Rauru’s Blessing - Shrine Quest: Keys Born of Water
+-> O-ogim Shrine (2755,-1090,0100) - Type: Rauru’s Blessing - Shrine Quest: The Lanayru Road Crystal
+-> Zakusu Shrine (3527,-1482,0168) - Type: Proving Grounds - Shrine Quest: The High Srping and the Light Rings
+-> Jogou Shrine (3346,-1187,0057) - Type: Rauru’s Blessing - Shrine Quest: None
+-> Zanmik Shrine (3469,-2179,0148) - Type: Puzzle - Shrine Quest: None
+-> Anedamimik Shrine (4231,-2178,-0012) - Type: Puzzle - Shrine Quest: None
+-> Jikais Shrine (4266,-1674,0182) - Type: Puzzle - Shrine Quest: None
+-> Mayahisik Shrine (3730,-2058,0189) - Type:Rauru’s Blessing  - Shrine Quest: None    
     """)
     await ctx.send("""
-    
+ SOUTHERNMOST LATITUDES
+-> Karahatag Shrine (-3726,-3625,0043) - Type: Puzzle - Shrine Quest: None
+-> Miryotanog Shrine (-4679,-3086,0054) - Type: Proving Grounds - Shrine Quest: None
+-> Irasak Shrine (-4159,-3824,0028) - Type: Rauru’s Blessing - Shrine Quest: None
+-> Soryotanog Shrine (-3881,.2961,0123) - Type: Puzzle - Shrine Quest: None
+-> Chichim Shrine (-3211,-3007,-0049) - Type: Rauru’s Blessing - Shrine Quest: None
+-> Siwakama Shrine (-2445,-3345,0041) - Type: Puzzle - Shrine Quest: None
+-> Mayatat Shrine (-3290,-2512,0024) - Type: Puzzle - Shrine Quest: None
+-> Motsusis Shrine (-1795,-3485,0045) - Type: Rauru’s Blessing - Shrine Quest: None
+-> Kitawak Shrine (-1529,-2928,0321) - Type: Puzzle - Shrine Quest: None
+-> En-oma Shrine (0104,-2517,-0087) - Type: Rauru’s Blessing - Shrine Quest: The Lake Hylia Crystal
+-> Ishokin Shrine (-0565,-3524,0129) - Type: Rauru’s Blessing- Shrine Quest: Ride the Giant Horse
+-> Utsushok Shrine (0669,-3358,0072) - Type: Puzzle - Shrine Quest: None
+-> Joju-u-u Shrine (1516,-3576,0142) - Type: Puzzle - Shrine Quest: None
+-> Utojis Shrine (1217,-2542,0096) - Type: Rauru’s Blessing - Shrine Quest: Legend of the Soaring Spear
+-> Tokiy Shrine (2304,-2377,-0028) - Type: Rauru’s Blessing  - Shrine Quest: The Oakle’s Navel Cave Crystal
+-> Bamitok Shrine (3094,-3209,0082) - Type: Rauru’s Blessing - Shrine Quest: None
+-> Sifumin Shrine (2826,-3271,0078) - Type: Proving Grounds - Shrine Quest: None
+-> Mara-ri Shrine (4632,-3712,0018) - Type: Rauru’s Blessing - Shrine Quest: Seeking the Pirate Hideout   
     """)
     await ctx.send("""
-    
-    """)
+HEBRA SKY
+-> Ijo-o Shrine (-3860,2682,0702) - Type: Puzzle - Shrine Quest: None
+-> Mayaumekis Shrine (-2947,3051,0897) - Type: Puzzle - Shrine Quest: None
+-> Kahatanaum Shrine (-3294,3430,1347) - Type:  Blessing - Shrine Quest: None
+-> Taninoud Shrine (-1801,3406,0949) - Type: Rauru’s Blessing - Shrine Quest: The East Hebra Sky Crystal
+-> Tenbez Shrine (-0969,3535,1011) - Type: Puzzle - Shrine Quest: None
+-> Ga-ahisas Shrine (-3596,0962,1719) - Type: Rauru’s Blessing - Shrine Quest: None
+-> Taunhiy Shrine (-2400,0824,0615) - Type: Combat Training - Shrine Quest: None
+-> Ganos Shrine (-3370,0466,1695) - Type: Rauru’s Blessing - Shrine Quest: The Tabantha Sky Crystal
+ELDIN SKY
+-> Kadaunar Shrine (1882,1202,1251) - Type: Puzzle - Shrine Quest: None
+AKKALA SKY
+-> Mogisari Shrine (4655,3500,1010) - Type: Puzzle - Shrine Quest: None
+-> Natak Shrine (3671,1484,1158) - Type: Rauru’s Blessing - Shrine Quest: The Sokkala Sky Crystal 
+-> Gikaku Shrine (4509,2165,1155) - Type: Rauru’s Blessing - Shrine Quest: The Sky Mine Crystal
+CENTRAL HYRULE SKY
+-> Mayam Shrine (0341,2814,1821) - Type: Rauru’s Blessing - Shrine Quest: The North Hyrule Sky Crystal
+->  Simosiwak Shrine (0163,1972,0759) - Type: Proving Grounds - Shrine Quest: None
+-> Jinodok Shrine (-1257,-1487,1008) - Type: Rauru’s Blessing - Shrine Quest: The South Hyrule Sky Crystal
+     """)
     await ctx.send("""
-    
+LANAYRU SKY
+-> Igoshon Shrine (3480,0664,1325) - Type: Puzzle - Shrine Quest: None
+-> Jirutagumac Shrine (2916,0533,0951) - Type: Puzzle - Shrine Quest: None
+-> Mayanas Shrine (4613,-0947,1790) - Type: Puzzle - Shrine Quest: The South Lanayru Sky Crystal
+GERUDO SKY
+-> Rakashog Shrine (-1716,-2118,1149) - Type: Puzzle - Shrine Quest: None
+-> Mayasiar Shrine (-3545,-0320,1965) - Type: Rauru’s Blessing - Shrine Quest: None
+-> Siyamotsus Shrine (-1795,-3295,1011) - Type: Puzzle - Shrine Quest: None
+FARON SKY
+-> Joku-usin Shrine (1074,-3347,0786) - Type: Proving Grounds - Shrine Quest: None
+-> Joku-u Shrine (1375,-3339,0429) - Type: Rauru’s Blessing - Shrine Quest: None
+NECLUDA SKY
+-> Josiu Shrine (1759,-1208,0924) - Type: Rauru’s Blessing - Shrine Quest: The North Necluda Sky Crystal
+-> Ukoojisi Shrine (1467,-2168,0585) - Type: Rauru’s Blessing - Shrine Quest: The West Necluda Sky Crystal
+-> Yansamin Shrine (2350,-1782,1475) - Type: Proving Ground - Shrine Quest: None
+-> Kumamayn Shrine (2856,-2857,1212) - Type: Rauru’s Blessing - Shrine Quest: The Necluda Sky Crystal    
     """)
-    await ctx.send("""
-    
-    """)
+
     with open('/Users/a8a/Downloads/Jose Luis/shrines_map.png', 'rb') as f:
         picture = discord.File(f)
     await ctx.send(file=picture)
