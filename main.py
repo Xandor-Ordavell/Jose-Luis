@@ -690,7 +690,7 @@ ADDITIONAL ADVENTURES
                                     #BESTIARY#
 
 @bot.command()
-async def construct(ctx): 
+async def soldier_construct(ctx): 
     await ctx.send("""
     SOLDIER CONSTRUCT I
     HP: 15    ATK: 2      
@@ -719,6 +719,11 @@ async def construct(ctx):
     COMMON WEAPONS: All Zonai Weapons
     ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Soldier Construct IV Horn, Arrow x5 (40%)(Archers only)
     TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
+        """)
+
+@bot.command()
+async def captain_construct(ctx):
+    await ctx.send("""
 
     CAPTAIN CONSTRUCT I
     HP: 80     ATK: 4     
@@ -747,8 +752,6 @@ async def construct(ctx):
     COMMON WEAPONS: All Zonai Weapons
     ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Captain Construct I Horn, Arrow x5 (40%)
     TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
-
-    
     """)
 
 @bot.command()
