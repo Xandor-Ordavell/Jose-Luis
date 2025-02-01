@@ -696,28 +696,28 @@ async def soldier_construct(ctx):
     HP: 15    ATK: 2      
     ELEMENTAL PROPERTIES: May use elemental weapons
     COMMON WEAPONS: All Zonai Weapons
-    ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Soldier Construct Horn, Arrow x5 (30%)(Archers only)
+    ITEM DROPS: Zonaite (Depths only), Zonai Charge, Soldier Construct Horn, Arrow x5 (30%)(Archers only)
     TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
     
     SOLDIER CONSTRUCT II
     HP: 72      ATK: 11     
     ELEMENTAL PROPERTIES: May use elemental weapons
     COMMON WEAPONS: All Zonai Weapons
-    ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Soldier Construct II Horn, Arrow x5 (40%)(Archers only)
+    ITEM DROPS: Zonaite (Depths only), Zonai Charge, Soldier Construct II Horn, Arrow x5 (40%)(Archers only)
     TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
 
     SOLDIER CONSTRUCT III
     HP: 160      ATK: 27      
     ELEMENTAL PROPERTIES: May use elemental weapons
     COMMON WEAPONS: All Zonai Weapons
-    ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Soldier Construct III Horn, Arrow x5 (40%)(Archers only)
+    ITEM DROPS: Zonaite (Depths only), Zonai Charge, Soldier Construct III Horn, Arrow x5 (40%)(Archers only)
     TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
 
     SOLDIER CONSTRUCT IV
     HP: 720     ATK: 42      
     ELEMENTAL PROPERTIES: May use elemental weapons
     COMMON WEAPONS: All Zonai Weapons
-    ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Soldier Construct IV Horn, Arrow x5 (40%)(Archers only)
+    ITEM DROPS: Zonaite (Depths only), Zonai Charge, Soldier Construct IV Horn, Arrow x5 (40%)(Archers only)
     TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
         """)
 
@@ -729,63 +729,275 @@ async def captain_construct(ctx):
     HP: 80     ATK: 4     
     ELEMENTAL PROPERTIES: May use elemental weapons
     COMMON WEAPONS: All Zonai Weapons
-    ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Captain Construct I Horn, Arrow x5 (30%)
+    ITEM DROPS: Zonaite (Depths only), Zonai Charge, Captain Construct I Horn, Arrow x5 (30%)
     TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
 
     CAPTAIN CONSTRUCT II
     HP: 200      ATK: 15      
     ELEMENTAL PROPERTIES: May use elemental weapons
     COMMON WEAPONS: All Zonai Weapons
-    ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Captain Construct II Horn, Arrow x5 (40%)
+    ITEM DROPS: Zonaite (Depths only), Zonai Charge, Captain Construct II Horn, Arrow x5 (40%)
     TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
 
     CAPTAIN CONSTRUCT III
     HP: 380      ATK: 30     
     ELEMENTAL PROPERTIES: May use elemental weapons
     COMMON WEAPONS: All Zonai Weapons
-    ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Captain Construct III Horn, Arrow x5 (40%)
+    ITEM DROPS: Zonaite (Depths only), Zonai Charge, Captain Construct III Horn, Arrow x5 (40%)
     TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
 
     CAPTAIN CONSTRUCT IV
     HP: 1200     ATK: 36     
     ELEMENTAL PROPERTIES: May use elemental weapons
     COMMON WEAPONS: All Zonai Weapons
-    ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Captain Construct I Horn, Arrow x5 (40%)
+    ITEM DROPS: Zonaite (Depths only), Zonai Charge, Captain Construct I Horn, Arrow x5 (40%)
     TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
     """)
 
 @bot.command()
 async def bokoblin(ctx): 
+    await ctx.send("""
+    BOKOBLIN
+    HP: 25       ATK: 3   
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: Sticks (one and two-handed), wooden shields, bone-type bones, swords
+    ITEM DROPS: Bokoblin Horn, Bokoblin Fang, Zonaite (Depths only ), Arrow x5 (Archers only)
+    TYPICAL HABITAT: Central Hyrule
+    
+    BLUE BOKOBLIN
+    HP: 72       ATK: 11      
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: Sticks (one and two-handed), wooden shields, bone-type bones, swords 
+    ITEM DROPS: Blue Bokoblin Horn, Bokoblin Fang, Zonaite (Depths only ), Arrow x5 (Archers only), Bokoblin Guts (20%)
+    TYPICAL HABITAT: Hebra (around mountain summits)
+    
+    BLACK BOKOBLIN
+    HP: 240      ATK: 27     
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: Sticks (one and two-handed), wooden shields, bone-type bones, swords 
+    ITEM DROPS: Black Bokoblin Horn, Bokoblin Fang, Zonaite (Depths only ), Arrow x5 (Archers only), Bokoblin Guts (60%)
+    TYPICAL HABITAT: Outskirts of Hateno Village
+    
+    SILVER BOKOBLIN
+    HP: 720      ATK: 43     
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: Sticks (one and two-handed), wooden shields, bone-type bones, swords 
+    ITEM DROPS: Silver Bokoblin Horn, Bokoblin Fang, Zonaite (Depths only ), Arrow x5 (Archers only), Bokoblin Guts (100%)
+    TYPICAL HABITAT: The Depths (Hebra Region)  
+    """)
 
 @bot.command()
-async def boss_bokoblin(ctx): 
+async def boss_bokoblin(ctx):
+    await ctx.send("""
+    BOSS BOKOBLIN
+    HP: 200      ATK: 22  
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: All common one and two-handed weapons
+    ITEM DROPS: Zonaite (Depths only), Boss Bokoblin Horn, Boss Bokoblin Fang
+    TYPICAL HABITAT: Central Hyrule, Hebra
+    
+    BLUE BOSS BOKOBLIN
+    HP: 400      ATK: 32      
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: All common one and two-handed weapons
+    ITEM DROPS: Zonaite (Depths only), Blue Boss Bokoblin Horn, Boss Bokoblin Fang, Boss Bokoblin Guts (20%)
+    TYPICAL HABITAT: Eldin, Necluda, Faron
+    
+    BLACK BOSS BOKOBLIN
+    HP: 750      ATK: 750     
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: All common one and two-handed weapons
+    ITEM DROPS: Zonaite (Depths only), Black Boss Bokoblin Horn, Boss Bokoblin Fang, Boss Bokoblin Guts (60%)
+    TYPICAL HABITAT: Gerudo Highlands, Mount Lanayru 
+    
+    SILVER BOSS BOKOBLIN
+    HP: 1200     ATK: 62    
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: All common one and two-handed weapons
+    ITEM DROPS: (Depths only), Silver Boss Bokoblin Horn, Boss Bokoblin Fang, Boss Bokoblin Guts (100%)
+    TYPICAL HABITAT: Central Hyrule, Hebra, Eldin, Necluda, Faron
+    """)
 
 @bot.command()
 async def horroblin(ctx): 
+    await ctx.send("""
+    HORROBLIN
+    HP: 35       ATK: 4   
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: Spears
+    ITEM DROPS: Horroblin Horn, Zonaite (Depths only), Horroblin Claws (30%)
+    TYPICAL HABITAT: Central Hyrule caves
+    
+    BLUE HORROBLIN
+    HP: 106      ATK: 20      
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: Spears
+    ITEM DROPS: Blue Horroblin Horn, Zonaite (Depths only), Horroblin Claws (80%), Horroblin Guts (20%)
+    TYPICAL HABITAT: Caves, Hyrule Castle
+    
+    BLACK HORROBLIN
+    HP: 280      ATK: 40     
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: Spears
+    ITEM DROPS: Black Horroblin Horn, Zonaite (Depths only), Horroblin Claws (70%), Horroblin Guts (60%)
+    TYPICAL HABITAT: Central Hyrule (Hidden Royal Passage)
+    
+    SILVER HORROBLIN
+    HP: 840      ATK: 52     
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: Spears
+    ITEM DROPS: Silver Horroblin Horn, Zonaite (Depths only), Horroblin Claws (100%), Horroblin Guts (100%)
+    TYPICAL HABITAT: The Depths (southwest of Gerudo Region)
+    """)
 
 @bot.command()
 async def moblin(ctx): 
+    await ctx.send("""
+    MOBLIN
+    HP: 62       ATK: 5   
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: One and two-handed metal weapons
+    ITEM DROPS: Moblin Horn, Zonaite (Depths only), Moblin Fang (30%)
+    TYPICAL HABITAT: Death Mountain Area
+    
+    BLUE MOBLIN
+    HP: 144      ATK: 23      
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: One and two-handed metal weapons
+    ITEM DROPS: Blue Moblin Horn, Zonaite (Depths only), Moblin Fang (80%), Moblin Guts (20%)
+    TYPICAL HABITAT: Death Mountain Area
+    
+    BLACK MOBLIN
+    HP: 360      ATK: 45     
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: One and two-handed metal weapons
+    ITEM DROPS: Black Moblin Horn, Zonaite (Depths only), Moblin Fang (70%), Moblin Guts (60%)
+    TYPICAL HABITAT: Akkala (northeast cliffs)
+    
+    SILVER MOBLIN
+    HP: 1080     ATK: 59     
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: One and two-handed metal weapons
+    ITEM DROPS: Silver Moblin Horn, Zonaite (Depths only), Moblin Fang (100%), Moblin Guts (100%)
+    TYPICAL HABITAT: The Depths (under the Gerudo Highlands)
+    """)
 
 @bot.command()
 async def lizalfos(ctx): 
 
 @bot.command()
 async def stal(ctx): 
+    await ctx.send("""
+    STALBOKOBLIN
+    HP: 2        ATK: 3   
+    ELEMENTAL PROPERTIES: None
+    COMMON WEAPONS: Sticks (one and two-handed), wooden shields, bone-type bones, swords 
+    ITEM DROPS: Bokoblin Horn, Bokobling Fang (50%), Zonaite (Depths only), Arrow x5 (Archers only; 30%)
+    TYPICAL HABITAT: Central Hyrule (night only)
+    
+    STALMOBLIN
+    HP: 3        ATK: 5      
+    ELEMENTAL PROPERTIES: None
+    COMMON WEAPONS: One and two-handed metal weapons
+    ITEM DROPS: Moblin Horn, Moblin Fang, Zonaite (Depths only)
+    TYPICAL HABITAT: Death Mountain area (night only)
+    
+    STALIZALFOS
+    HP: 2        ATK: 12     
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: Lizal weapons (boomerang), bows, metal shields, swords
+    ITEM DROPS: Lizalfos horn, Lizalfos Talon, Zonaite (Depths only)
+    TYPICAL HABITAT: Outskirts of Zora's Domain (northeast cliffs)
+    """)
 
 @bot.command()
 async def chcuchu(ctx): 
+    await ctx.send("""
+    CHUCHU
+    HP: 10 (Small)      ATK: 2   
+    ELEMENTAL PROPERTIES: None
+    COMMON WEAPONS: None
+    ITEM DROPS: Chuchu Jelly
+    TYPICAL HABITAT: Central Hyrule
+    
+    FIRE CHUCHU
+    HP: 10 (Small)      ATK: 0    
+    ELEMENTAL PROPERTIES: Fire damage and burning effect on contact, fire explosion when defeated
+    COMMON WEAPONS: None
+    ITEM DROPS: Red Chuchu Jelly
+    TYPICAL HABITAT: Death Mountain Area
+    
+    ELECTRIC CHUCHU
+    HP: 10 (Small)      ATK: 0   
+    ELEMENTAL PROPERTIES: Electric damage and shock effect on contact, electric explosion when defeated
+    COMMON WEAPONS: None
+    ITEM DROPS: Yellow Chuchu Jelly
+    TYPICAL HABITAT: North Faron
+    
+    ICE CHUCHU
+    HP: 10 (Small)      ATK: 0   
+    ELEMENTAL PROPERTIES: Ice damage and freezing effect on contact, ice explosion when defeated
+    COMMON WEAPONS: None
+    ITEM DROPS: White Chuchu Jelly
+    TYPICAL HABITAT: All snowy areas
+    """)
+
 
 @bot.command()
-async def like_like(ctx): 
+async def gibdo(ctx): 
+    await ctx.send("""
+    GIBDO
+    HP: 60      ATK: 20      
+    ELEMENTAL PROPERTIES: None
+    COMMON WEAPONS: None
+    ITEM DROPS: Zonaite (Depths only), Gibdo Bone, Gibdo Guts (10%)
+    TYPICAL HABITAT: Gerudo Desert
+    
+    MOTH GIBDO
+    HP: 40       ATK: 20     
+    ELEMENTAL PROPERTIES: None
+    COMMON WEAPONS: None
+    ITEM DROPS: Zonaite (Depths only), Gibdo Bone (40%), Gibdo Wings (20%), Gibdo Guts (20%)
+    TYPICAL HABITAT: Gerudo Desert
+    """)
 
 @bot.command()
 async def keese(ctx): 
+    await ctx.send("""
+    KEESE
+    HP: 1        ATK: 4  
+    ELEMENTAL PROPERTIES: None
+    COMMON WEAPONS: None
+    ITEM DROPS: Keese Eyeball, Keese Wing (40%)
+    TYPICAL HABITAT: Central Hyrule
+    
+    FIRE KEESE
+    HP: 1        ATK: 4    
+    ELEMENTAL PROPERTIES: Fire damage and burning effect on contact
+    COMMON WEAPONS: None
+    ITEM DROPS: Fire Keese Eyeball, Fire Keese Wing (40%)
+    TYPICAL HABITAT: Eldin region caves
+    
+    ELECTRIC KEESE
+    HP: 1        ATK: 4  
+    ELEMENTAL PROPERTIES: Electric damage and shock effect on contact
+    COMMON WEAPONS: None
+    ITEM DROPS: Electric Keese Eyeball, Electric Keese Wing (40%)
+    TYPICAL HABITAT: Faron region caves
+    
+    ICE KEESE
+    HP: 1        ATK: 4  
+    ELEMENTAL PROPERTIES: Ice damage and freezing effect on contact
+    COMMON WEAPONS: None
+    ITEM DROPS: Ice Keese Eyeball, Ice Keese Wing (40%)
+    TYPICAL HABITAT: All snowy areas & caves
+    """)
 
 @bot.command()
 async def wizzrobe(ctx): 
 
 @bot.command()
-async def gibdo(ctx): 
+async def like_like(ctx): 
 
 @bot.command()
 async def other_enemies(ctx): 
