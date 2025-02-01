@@ -689,4 +689,102 @@ ADDITIONAL ADVENTURES
 #############################################################################################
                                     #BESTIARY#
 
+@bot.command()
+async def construct(ctx): 
+    await ctx.send("""
+    SOLDIER CONSTRUCT I
+    HP: 15    ATK: 2      
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: All Zonai Weapons
+    ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Soldier Construct Horn, Arrow x5 (30%)(Archers only)
+    TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
+    
+    SOLDIER CONSTRUCT II
+    HP: 72      ATK: 11     
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: All Zonai Weapons
+    ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Soldier Construct II Horn, Arrow x5 (40%)(Archers only)
+    TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
+
+    SOLDIER CONSTRUCT III
+    HP: 160      ATK: 27      
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: All Zonai Weapons
+    ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Soldier Construct III Horn, Arrow x5 (40%)(Archers only)
+    TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
+
+    SOLDIER CONSTRUCT IV
+    HP: 720     ATK: 42      
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: All Zonai Weapons
+    ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Soldier Construct IV Horn, Arrow x5 (40%)(Archers only)
+    TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
+
+    CAPTAIN CONSTRUCT I
+    HP: 80     ATK: 4     
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: All Zonai Weapons
+    ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Captain Construct I Horn, Arrow x5 (30%)
+    TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
+
+    CAPTAIN CONSTRUCT II
+    HP: 200      ATK: 15      
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: All Zonai Weapons
+    ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Captain Construct II Horn, Arrow x5 (40%)
+    TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
+
+    CAPTAIN CONSTRUCT III
+    HP: 380      ATK: 30     
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: All Zonai Weapons
+    ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Captain Construct III Horn, Arrow x5 (40%)
+    TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
+
+    CAPTAIN CONSTRUCT IV
+    HP: 1200     ATK: 36     
+    ELEMENTAL PROPERTIES: May use elemental weapons
+    COMMON WEAPONS: All Zonai Weapons
+    ITEM DROPS: Zonaite (Depth's only), Zonai Charge, Captain Construct I Horn, Arrow x5 (40%)
+    TYPICAL HABITAT: Sky islands, shrines, Zonai ruins
+
+    
+    """)
+
+@bot.command()
+async def bokoblin(ctx): 
+
+@bot.command()
+async def boss_bokoblin(ctx): 
+
+@bot.command()
+async def horroblin(ctx): 
+
+@bot.command()
+async def moblin(ctx): 
+
+@bot.command()
+async def lizalfos(ctx): 
+
+@bot.command()
+async def stal(ctx): 
+
+@bot.command()
+async def chcuchu(ctx): 
+
+@bot.command()
+async def like_like(ctx): 
+
+@bot.command()
+async def keese(ctx): 
+
+@bot.command()
+async def wizzrobe(ctx): 
+
+@bot.command()
+async def gibdo(ctx): 
+
+@bot.command()
+async def other_enemies(ctx): 
+
 bot.run(settings['TOKEN'])
