@@ -882,8 +882,6 @@ async def moblin(ctx):
     TYPICAL HABITAT: The Depths (under the Gerudo Highlands)
     """)
 
-@bot.command()
-async def lizalfos(ctx): 
 
 @bot.command()
 async def stal(ctx): 
@@ -992,14 +990,5 @@ async def keese(ctx):
     ITEM DROPS: Ice Keese Eyeball, Ice Keese Wing (40%)
     TYPICAL HABITAT: All snowy areas & caves
     """)
-
-@bot.command()
-async def wizzrobe(ctx): 
-
-@bot.command()
-async def like_like(ctx): 
-
-@bot.command()
-async def other_enemies(ctx): 
 
 bot.run(settings['TOKEN'])
